@@ -1,0 +1,26 @@
+.category {
+	&__actions {
+		display: flex;
+		width: 100%;
+		align-items: center;
+	}
+}
+
+.btn {
+	padding: 0.5em 1em;
+	background: #80b6f3;
+	border-radius: 8px;
+	font-weight: 600;
+	margin-bottom: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 200px;
+	text-decoration: none;
+	margin-right: 1em;
+	text-transform: uppercase;
+}
+
+[data-reveal-close] {
+	display: none !important;
+}
