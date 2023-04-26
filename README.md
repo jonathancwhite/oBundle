@@ -17,9 +17,10 @@ This test, provided by oBundle, is a BigCommerce Theme Builder test. The assignm
   - Added confirmation messages and page reloads (this is not ideal, but for sake of time was used to update the cart)
     - The idea behind using a reload was that most users are used to being directed to the cart.php page anyways, so a minor refresh doesn't change the UX too much from default Cornerstone
     - I would personally install a minicart to handle cart updates and then allow the frontend to update the cart quantity on completion of any requests
+- Edited card.html to have multiple images so that on hover we can cycle between the first two
+  - We would want to add a limit if this were going to anything other than this theme as it would then try to load any images available, but the forEach used doesn't allow for limit
 - BONUS: Added banner to the top of the page when user is signed in
-  - Includes customer details (i.e. name, email, phone, etc)
-
+  - Includes customer details (name, email, phone)
 
 ## Access:
 - Store Link: https://obundle-test-i10.mybigcommerce.com/
